@@ -2,66 +2,127 @@
 
  <!-- https://nostalgic-css.github.io/NES.css/ -->
 <html lang="fr" dir="ltr">
-  <head>
-    <link href="https://unpkg.com/nes.css@latest/css/nes.min.css" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
-    <a class="nes-btn">Normal</a>
+	<head>
+		<link href="https://unpkg.com/nes.css@latest/css/nes.min.css" rel="stylesheet" />
+		<link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+	    <link href="style.css" rel="stylesheet">
+	    <link rel="icon" href="favicon.ico" />
+	    <meta charset="utf-8">
+	    <title>RocketChip</title>
+  	</head>
+  	<body>
 
-    <button type="button" class="nes-btn is-primary">Primary</button>
-    <button type="button" class="nes-btn is-success">Success</button>
-    <button type="button" class="nes-btn is-warning">Warning</button>
-    <button type="button" class="nes-btn is-error">Error</button>
-    <button type="button" class="nes-btn is-disabled">Disabled</button>
+	    <h1 id="welcomeMsg">Welcome on the site of RocketChip video-game making team !</h1>
+	    <img id="welcomeimg" src="favicon.ico" width="200" height="...">
+	    <div class="big-separator">---------------------------</div>
+	    <h2 class="title">What is Rocket-Chip ? :</h2>
+	    <p id="welcomeparagraphe">We are a video-game making team of two programmers. We love make video games and we are working since one year on pygame (sdl for python). We decided to begin a big project : a simple open source video-game engine (working with pygame) for make video game programming easier for beginners. We will post all changes on this site and on our github account. We hope we do good code. If it's not, please feedback and inform us !</p>
+	    <div class="separator">---------------------------</div>
+	    <h2 class="title">Links :</h2>
+	    <div id="links">
+	    	<p>Github : <a href="https://github.com/RocketChip-team"><i class="nes-icon github"></i></a></p>
+	    </div>
+	    <div class="separator">---------------------------</div>
+	    <h2 class="title">Projects :</h2>
+	    <div id="links">
+	    	<div>
+	    		<h4 class="littletitle">RocketChip-engine :</h4>
+	    		<p>Github : <a href="https://github.com/RocketChip-team/rocketchip-engine"><i class="nes-icon github"></i></a></p>
+	    	</div>
 
-    <div class="">-----------------------------------------</div>
-    <span class="nes-text is-primary">Primary</span>
-    <span class="nes-text is-success">Success</span>
-    <span class="nes-text is-warning">Warning</span>
-    <span class="nes-text is-error">Error</span>
-    <span class="nes-text is-disabled">Disabled</span>
-    <div class="">-----------------------------------------</div>
-    <i class="nes-octocat animate"></i>
-    <div class="">-----------------------------------------</div>
-    <section class="icon-list">
-      <!-- twitter -->
-      <i class="nes-icon twitter is-large"></i>
+	    </div>
+		<div class="separator">---------------------------</div>
+		<div>
+		    <h2 class="title">Last news :</h2>
+		    <h2 class="title">RocketChip Engine :</h2>
+		    <div class="nes-container is-dark with-title" id="commitblock">
+			    <h3 class="title">Last commit :</h3>
+			    <ul>Added Sprite Editor.py:
+			    	<li>-Basic sprite editor DUH</li>
+					<li>-4-bit colors (customizable palette)</li>
+					<li>-Up to 128 tiles per file</li>
+					<li>-Save/Load features</li>
+				</ul>
+				<ul>Added Tile.py:
+					<li>-Sheet class (with Sprite Editor.py's output file or data)</li>
+					<li>-Tile and MetaTile classes</li>
+					<li>-Adaptative MetaTile class (Adaptative Tile class can't be used on it's own)</li>
+					<li>-Animated MetaTile and Animated Tile classes</li>
+					<li>-Features a tech demo</li>
+				</ul>
+				<p>Added SSH key for Geek_Joystick</p>
+			</div>
 
-      <!-- facebook -->
-      <i class="nes-icon facebook is-large"></i>
+			<div class="nes-container is-dark with-title" id="newsblock">
+			    <h3 class="title">TODO first :</h3>
+			    <ul>
+			    	<li>Create test suite</li>
+					<li>Create docs for Sprite Editor.py and Tile.py</li>
+					<li>Find a better name</li>
+					<li>Update Website</li>
+				</ul>
+			</div>
 
-      <!-- instagram -->
-      <i class="nes-icon instagram is-large"></i>
+			<div class="nes-container is-white with-title" id="newsblock">
+			    <h3 class="title">Version and advancment :</h3>
+			    <ul>
+			    	<li>
+			    		<a href="#" class="nes-badge is-splited">
+						  <span class="is-dark">test</span>
+						  <span class="is-warning">O%</span>
+						</a>
+					</li>
+					<li>
+						<a href="#" class="nes-badge is-splited">
+						  <span class="is-dark">v</span>
+						  <span class="is-primary">0.0.1</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	    <div class="separator">---------------------------</div>
+	    <h2 class="title">Meet the Team :</h2>
+	    <div id="meet">
+            <section class="nes-container is-dark member-card">
+				<div class="meetblock">
+					<div class="avatar">
+					<img class="pdp" src="favicon.ico" width="100" height="...">
+				</div>
+				<div class="profile">
+					<h4 class="name">TwistedLlama</h4>
+					<p>Creator</p>
+					<div>
+						<a href="mailto:rocket.chipco@gmail.com"><i class="nes-icon gmail"></i></a>
+					</div>
+				</div>
+				</div>
+			</section>
+			<section class="nes-container is-dark member-card">
+				<div class="meetblock">
+					<div class="avatar">
+					<img class="pdp" src="favicon.ico" width="100" height="...">
+				</div>
+				<div class="profile">
+					<h4 class="name">Geek_Joystick</h4>
+					<p>Creator</p>
+					<div id="icons">
+						<a href="mailto:rocket.chipco@gmail.com"><i class="nes-icon gmail"></i></a>
+						<a href="https://geek-joystick.itch.io/"><img id="itchico" src="itchio.png" width="32" height="32"></a>
+					</div>
+				</div>
+				</div>
+			</section>
+    	</div>
+	</body>
+	<footer class="footer">
+		<div class="contact">
+			<p>contact us :</p>
+				<a href="mailto:rocket.chipco@gmail.com"><i class="nes-icon gmail"></i></a>
+		</div>
+		<div>
+			<p id="credits">Website made by TwistedLlama using nes.css ( https://nostalgic-css.github.io/NES.css/)</p>
+		</div>
 
-      <!-- github -->
-      <i class="nes-icon github is-large"></i>
-
-      <!-- google -->
-      <i class="nes-icon google is-large"></i>
-
-      <!-- gmail -->
-      <i class="nes-icon gmail is-large"></i>
-
-      <!-- medium -->
-      <i class="nes-icon medium is-large"></i>
-
-      <!-- linkedin -->
-      <i class="nes-icon linkedin is-large"></i>
-
-      <!-- twitch -->
-      <i class="nes-icon twitch is-large"></i>
-
-      <!-- youtube -->
-      <i class="nes-icon youtube is-large"></i>
-
-      <!-- reddit -->
-      <i class="nes-icon reddit is-large"></i>
-
-      <!-- whatsapp -->
-      <i class="nes-icon whatsapp is-large"></i>
-</section>
-  </body>
+	</footer>
 </html>
