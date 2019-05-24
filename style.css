@@ -1,6 +1,6 @@
 #welcomeMsg
 {
-  color: black;
+  color: white;
   text-align: center;
   font-size: 28px;
 }
@@ -12,32 +12,47 @@
   margin-right: auto
 }
 
+body {
+    font-size: 16px;
+    color: #fff;
+    background-color: #4a148c;
+    -webkit-font-smoothing: antialiased;
+}
+
+.nes-container.with-title > .title {
+    display: table;
+    padding: 0 .5rem;
+    margin: -1.8rem 0 1rem;
+    font-size: 1rem;
+    background-color: #4a148c;
+}
+
 #welcomeparagraphe {
-  color: black;
+  color: white;
   text-align: center;
   font-size: 20px;
 }
 
 #links {
-  color: black;
+  color: white;
   text-align: center;
   font-size: 20px;
 }
 
 .big-separator {
-  color: black;
+  color: white;
   text-align: center;
   font-size: 25px;
 }
 
 .separator {
-  color: black;
+  color: white;
   text-align: center;
   font-size: 22px;
 }
 
 .title {
-  color: black;
+  color: white;
   text-align: center;
   font-size: 25px;
 }
@@ -89,7 +104,7 @@
 }
 
 .littletitle {
-  color: black;
+  color: white;
   text-align: center;
   font-size: 20px;
 }
